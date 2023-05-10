@@ -3,6 +3,7 @@
     1. clone the repo
     2. npm install
     3. npm run dev
+    4. (Optional) create a database in MySQL to create users
 
 #Packages that i used
 
