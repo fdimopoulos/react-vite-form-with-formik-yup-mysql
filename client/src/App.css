@@ -1,0 +1,107 @@
+:root {
+    --background: #f5f5f5;
+    --text-primary: #1a202c;
+    --text-secondary: #1a202c;
+    --accent: #2196f3;
+    --background-input: #f5f5f5;
+    --border-input: #4a5568;
+    --placeholder-input: #1a202c;
+    --error: #dc143c;
+}
+
+[data-theme="dark"] {
+    --background: #1a202c;
+    --text-primary: #f2f2f2;
+    --text-secondary: #1a202c;
+    --accent: #2196f3;
+    --background-input: #2d3748;
+    --border-input: #4a5568;
+    --placeholder-input: #a0aec0;
+    --error: #fc8181;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    text-align: center;
+    transition: 0.4s;
+    background-color: var(--background);
+}
+
+.error {
+    font-size: 0.75rem;
+    text-align: left;
+    color: var(--error);
+}
+
+input.input-error {
+    border-color: var(--error);
+}
+
+div h2 {
+    color: var(--text-primary);
+}
+
+form {
+    margin-inline: auto;
+    padding: 1rem;
+    max-width: 450px;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    color: var(--text-primary);
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.6rem 0.5rem;
+    border: 2px solid var(--border-input);
+    border-radius: 0.5rem;
+    background-color: var(--background-input);
+    outline: none;
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+input:focus {
+    border-color: var(--accent);
+}
+
+input::placeholder {
+    color: var(--placeholder-input);
+}
+
+form button {
+    display: block;
+    width: 100%;
+    margin-block: 2rem;
+    padding: 0.75rem 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--accent);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.toggle span {
+    color: var(--text-primary);
+}
