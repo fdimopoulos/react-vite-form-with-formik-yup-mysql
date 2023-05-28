@@ -44,6 +44,7 @@ div h2 {
 
 form {
     margin-inline: auto;
+    margin-top: 1rem;
     padding: 1rem;
     max-width: 450px;
     border-radius: 1rem;
