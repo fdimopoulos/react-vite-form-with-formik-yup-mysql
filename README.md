@@ -5,7 +5,7 @@
     3. npm run dev
     4. (Optional) create a database in MySQL to create users when you submit the form
 
-#Packages that i used
+#Packages that I used
 
     Client side
     1. formik
