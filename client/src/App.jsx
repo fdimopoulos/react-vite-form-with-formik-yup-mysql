@@ -1,4 +1,4 @@
-import "./App.css";
+import "./sass/main.scss";
 import SignupForm from "./components/SignupForm";
 import { createContext, useState } from "react";
 import { Switch } from "antd";

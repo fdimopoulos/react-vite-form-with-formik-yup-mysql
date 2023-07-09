@@ -1,0 +1,29 @@
+form {
+    input {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 0.6rem 0.5rem;
+        border: 2px solid var(--border-input);
+        border-radius: 0.5rem;
+        background-color: var(--background-input);
+        outline: none;
+        color: var(--text-primary);
+    }
+
+    &:focus {
+        border-color: var(--accent);
+    }
+
+    &::placeholder {
+        color: var(--placeholder-input);
+    }
+
+    & .error {
+        text-align: left;
+        color: var(--error);
+    }
+
+    & .input-error {
+        border-color: var(--error);
+    }
+}
